@@ -69,7 +69,7 @@ bresenhamCircunferencia(35, 25, 8)
 pygame.display.flip()
 
 while True:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit()
-            sys.exit()
+  for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+      pygame.quit()
+      sys.exit()
